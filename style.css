@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    width: 40%;
+    background-color: #E0E0E0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px black;
+
+}
+
+.cal {
+    width: 40%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px grey;
+    margin: 0.25rem;
+    padding: 0.5rem;
+}
+
+/* Calendar top */
+
+#cal-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+#cal-top input {
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.25rem;
+}
+
+#cal-top button {
+    background-color: #E0E0E0;
+    border: none;
+    padding: 0rem 0.25rem;
+    border-radius: 1rem;
+}
+
+/* Calendar bottom */
+
+#dates p {
+    width: 14.2%;
+    text-align: center;
+}
+
+#month, #day, #dates{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#cal-bottom div {
+    margin: 0.5rem 0rem;
+}
+
+#day {
+    border-bottom: 1px solid black;
+}
