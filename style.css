@@ -60,7 +60,7 @@ main {
     text-align: center;
 }
 
-#month, #day, #dates{
+#month, #days, #dates{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -71,6 +71,6 @@ main {
     margin: 0.5rem 0rem;
 }
 
-#day {
+#days {
     border-bottom: 1px solid black;
 }
